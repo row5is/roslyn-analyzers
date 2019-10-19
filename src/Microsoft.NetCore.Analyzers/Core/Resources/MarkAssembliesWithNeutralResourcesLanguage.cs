@@ -138,6 +138,7 @@ namespace Microsoft.NetCore.Analyzers.Resources
             }
 
             // either we couldn't find one or existing one is wrong.
+            //more comments for code camp
             attributeData = attributes.FirstOrDefault();
             return false;
         }
